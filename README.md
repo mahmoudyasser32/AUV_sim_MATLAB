@@ -16,23 +16,6 @@ While the simulation environment, plant model, and basic utilities are adapted f
 - Modular structure to allow future controller development or integration.
 - Visualization of AUV behavior using MATLAB plotting tools.
 
-## 🛠️ Structure
-
-AUV_sim_MATLAB/
-│
-├── main.m # Main simulation script
-├── AUV_parameters.m # AUV model and parameters
-├── dynamics.m # AUV dynamic model
-├── controller/
-│ ├── Control_SMC_MPC.m # Custom controller implementation (SMC + MPC)
-│ └── utils/ # Helper functions for control
-├── path_planning/ # Trajectory and reference generation
-├── results/ # Stored results and plots
-└── README.md # This file
-
-Copy
-Edit
-
 ## 🔧 Dependencies
 
 - MATLAB (tested with R2021a and newer)
